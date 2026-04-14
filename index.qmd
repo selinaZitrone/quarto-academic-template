@@ -1,11 +1,23 @@
 ---
-title: "quarto-academic-template"
+title: "Your Name"
+about:
+  template: jolla          # try: trestles, solana, marquee, broadside
+  image: profile.jpg
+  links: # Use bootstrap icons: https://icons.getbootstrap.com/
+    - icon: envelope
+      text: Email
+      href: mailto:you@example.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/yourhandle
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@yourhandle
+    - text: ORCID
+      href: https://orcid.org/0000-0000-0000-0000
 ---
 
-This is a Quarto website.
+Welcome! I'm a [PhD student / postdoc / researcher] at **Your University**,
+working on [your topic in one sentence].
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+This site is where I keep my CV, publications, and an occasional blog post.

@@ -1,21 +1,24 @@
+# Tells Quarto this folder is a website project
 project:
   type: website
 
 website:
-  title: "quarto-academic-template"
+  title: "Your Name"
+
+  # This controls the navbar at the top of every page
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: blog.qmd
+        text: Blog
 
+# Applies to every page rendered by this project
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
-
+    theme: cosmo       # pick any built-in theme: https://quarto.org/docs/output-formats/html-themes.html
+    css: styles.css    # our own small stylesheet for tweaks

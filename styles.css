@@ -1,1 +1,7 @@
-/* css styles */
+/* Small tweaks to the cosmo theme.
+   Add your own rules here — anything you write will override the theme. */
+
+/* Make the main title on each page a bit larger */
+h1.title {
+  font-size: 2.4rem;
+}
