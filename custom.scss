@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+// This section is for variables. Quarto (via Bootstrap) exposes many
+// Sass variables you can override here e.g. colors, fonts, spacing, etc.
+// Full list: https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+
+$primary:    #2c3e50;   // accent color for buttons, highlights, UI elements
+$body-bg:    #fafafa;   // page background
+$link-color: #c0392b;   // color of hyperlinks in the body text
+
+
+/*-- scss:rules --*/
+// This section is for *regular CSS rules*. Anything you'd write in a
+// .css file works here too. Rules in this block are applied on top of
+// the theme, after the variables above have been resolved.
+
+h1.title {
+  font-size: 2.6rem;
+}
