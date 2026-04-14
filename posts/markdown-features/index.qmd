@@ -31,6 +31,14 @@ $$
 
 No setup required — Quarto renders it via MathJax automatically.
 
+## Images
+
+Drop an image into the same folder as the post and reference it with
+`![Alt text](filename.jpg)`. If the image is alone on its own line,
+Quarto treats the alt text as a **figure caption**:
+
+![A placeholder figure that travels with this post.](figure.jpg)
+
 ## Code blocks
 
 You can show code in a fenced block. Note the lowercase `r` with
