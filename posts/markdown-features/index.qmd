@@ -52,8 +52,7 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
   labs(title = "A plot I am not actually running")
 ```
 
-(Swap ` ```r ` for ` ```{r} ` and Quarto would *execute* the chunk —
-but that's a topic for another day.)
+To execute the code, use `{r}` with curly braces. Quarto will run the code and insert the output. But that's a topic for another post.
 
 ## Callouts
 
