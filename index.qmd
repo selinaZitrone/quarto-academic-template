@@ -10,14 +10,12 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/yourhandle
-    - icon: mastodon
-      text: Mastodon
-      href: https://fosstodon.org/@yourhandle
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/yourhandle
     - text: ORCID
       href: https://orcid.org/0000-0000-0000-0000
 ---
 
-Welcome! I'm a [PhD student / postdoc / researcher] at **Your University**,
+Welcome! I'm a [PhD student / postdoc / researcher] at [University ABC],
 working on [your topic in one sentence].
-
-This site is where I keep my CV, publications, and an occasional blog post.
