@@ -6,6 +6,5 @@ listing:
   contents: posts        # folder to scan for posts
   type: default          # try: default, table, grid
   sort: "date desc"      # newest first
-  categories: true       # show a category filter in the sidebar
-  feed: true             # generate an RSS feed
+  categories: true       # show a category filter in the sidebar (the tags)
 ---
