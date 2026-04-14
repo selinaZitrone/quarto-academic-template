@@ -7,8 +7,6 @@ title: "Publications"
      using the `bibliography` and `nocite` YAML keys — see
      https://quarto.org/docs/authoring/citations.html -->
 
-\* denotes equal contribution.
-
 ## 2025
 
 - **Your Name**, A. Coauthor, B. Coauthor. *A paper title that sounds important*. Journal of Interesting Things, 2025. [[PDF](#)] [[code](#)] [[doi](#)]
