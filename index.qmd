@@ -17,5 +17,8 @@ about:
       href: https://orcid.org/0000-0000-0000-0000
 ---
 
-Welcome! I'm a [PhD student / postdoc / researcher] at [University ABC],
-working on [your topic in one sentence].
+Welcome! I'm a [PhD student / postdoc / researcher] at **University ABC**,
+working on *[your topic in one sentence]*.
+
+You can find my full [CV](cv.qmd), a list of [publications](publications.qmd),
+and occasional posts on my [blog](blog.qmd).

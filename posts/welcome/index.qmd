@@ -8,7 +8,10 @@ categories: [news, meta]
 
 This is an example blog post. To add a new post, create a new folder under
 `posts/` (for example `posts/my-new-post/`) and put an `index.qmd` file
-inside it. The blog listing page will pick it up automatically.
+inside it. The blog listing page will pick it up automatically.[^1]
+
+[^1]: This is a footnote. Quarto auto-numbers them and adds a link back
+to where you cited them — handy for academic writing.
 
 ## What goes in the YAML?
 
@@ -22,8 +25,31 @@ The fields at the top of this file are what the listing uses:
 ## What goes in the body?
 
 Anything you can write in markdown: headings, lists, links, images,
-block quotes, footnotes. If you want code, you can show it in a fenced
-block — but remember this template doesn't execute code, so keep chunks
-as plain examples rather than things that need to run.
+block quotes, and footnotes.
+
+Quarto also understands **LaTeX-style math**, so you can drop in an
+equation like $E = mc^2$ inline, or as a display block:
+
+$$
+\int_0^\infty e^{-x^2} \, dx = \frac{\sqrt{\pi}}{2}
+$$
+
+You can also show code in a fenced block. Note the lowercase `r` with
+**no curly braces** — that means "display this as code, don't run it":
+
+```r
+library(ggplot2)
+
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "A plot I am not actually running")
+```
+
+::: {.callout-tip}
+## Callouts are a Quarto feature
+This coloured box is a **callout**. There are five types: `note`, `tip`,
+`warning`, `important`, and `caution`. They're great for highlighting
+things without breaking the flow of your writing.
+:::
 
 Happy writing!
