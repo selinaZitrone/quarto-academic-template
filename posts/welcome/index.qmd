@@ -1,0 +1,29 @@
+---
+title: "Welcome to my blog"
+description: "A first post to show how blog posts work in Quarto."
+author: "Your Name"
+date: "2026-04-14"
+categories: [news, meta]
+---
+
+This is an example blog post. To add a new post, create a new folder under
+`posts/` (for example `posts/my-new-post/`) and put an `index.qmd` file
+inside it. The blog listing page will pick it up automatically.
+
+## What goes in the YAML?
+
+The fields at the top of this file are what the listing uses:
+
+- `title` — shown on the listing and at the top of the post
+- `description` — the short blurb under the title on the listing
+- `date` — controls the sort order
+- `categories` — shown as tags; also power the sidebar filter
+
+## What goes in the body?
+
+Anything you can write in markdown: headings, lists, links, images,
+block quotes, footnotes. If you want code, you can show it in a fenced
+block — but remember this template doesn't execute code, so keep chunks
+as plain examples rather than things that need to run.
+
+Happy writing!
