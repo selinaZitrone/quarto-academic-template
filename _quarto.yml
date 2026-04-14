@@ -17,6 +17,11 @@ website:
       - href: blog.qmd
         text: Blog
 
+  # This controls the footer shown at the bottom of every page
+  page-footer:
+    left: "© 2026 Your Name"
+    right: "Built with [Quarto](https://quarto.org)"
+
 # Applies to every page rendered by this project
 format:
   html:
