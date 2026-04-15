@@ -10,8 +10,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: cv.qmd
-        text: CV
+      - href: about.qmd
+        text: About
       - href: publications.qmd
         text: Publications
       - href: blog.qmd
