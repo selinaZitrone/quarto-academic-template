@@ -10,8 +10,7 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/yourhandle
-    - icon: bluesky
-      text: Bluesky
+    - text: Bluesky
       href: https://bsky.app/yourhandle
     - text: ORCID
       href: https://orcid.org/0000-0000-0000-0000
