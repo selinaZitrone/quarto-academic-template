@@ -25,7 +25,5 @@ website:
 # Applies to every page rendered by this project
 format:
   html:
-    theme: # pick any built-in theme: https://quarto.org/docs/output-formats/html-themes.html
-      light: flatly       
-      dark: darkly
+    theme: cosmo # pick any built-in theme: https://quarto.org/docs/output-formats/html-themes.html
     css: styles.css    # our own small stylesheet for tweaks
