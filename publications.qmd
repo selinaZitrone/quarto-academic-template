@@ -4,9 +4,10 @@ title: "Publications"
 
 ## Papers
 
-- **Your Name**, A. Coauthor, B. Coauthor. *Paper title*. Journal Name, 2025. [[code](#)] [[doi](#)]
+- **Your Name**, A. Coauthor, B. Coauthor. *Paper title*. Journal Name, 2025. [[code](https://selinazitrone.github.io/tools_and_tips/sessions/17_quarto-website.html)] [[doi]()]
 - A. Coauthor\*, **Your Name**\*. *Paper title*. Conference Name, 2025. [[doi](#)]
 - **Your Name**, C. Coauthor. *Paper title*. Journal Name, 2024. [[doi](#)]
+- asdfasdf
 
 ## Talks
 

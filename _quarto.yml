@@ -1,6 +1,7 @@
 # Tells Quarto this folder is a website project
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Your Name"
@@ -25,5 +26,5 @@ website:
 # Applies to every page rendered by this project
 format:
   html:
-    theme: cosmo # pick any built-in theme: https://quarto.org/docs/output-formats/html-themes.html
+    theme: cyborg # pick any built-in theme: https://quarto.org/docs/output-formats/html-themes.html
     css: styles.css    # our own small stylesheet for tweaks

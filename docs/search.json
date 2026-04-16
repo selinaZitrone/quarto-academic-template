@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "A file that is not called index\n\n\n\ntest\n\n\n\nDoes it work?\n\n\n\n\n\nApr 16, 2026\n\n\nYour Name\n\n\n\n\n\n\n\n\n\n\n\n\nMarkdown and Quarto features\n\n\n\nquarto\n\nreference\n\n\n\nA quick tour of footnotes, math, code blocks, and callouts.\n\n\n\n\n\nApr 15, 2026\n\n\nYour Name\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to my blog\n\n\n\nnews\n\nmeta\n\n\n\nA first post explaining how to use this blog.\n\n\n\n\n\nApr 14, 2026\n\n\nYour Name\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Your Name",
+    "section": "",
+    "text": "Welcome! I’m a [PhD student / postdoc / researcher] at [University ABC], working on [your topic in one sentence].\nHere, you can find more about me, a list of my publications, and occasional posts on my blog."
+  }
+]

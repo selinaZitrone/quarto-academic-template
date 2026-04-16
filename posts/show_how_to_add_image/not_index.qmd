@@ -1,0 +1,10 @@
+---
+title: "A file that is not called index"
+description: "Does it work?"
+author: "Your Name"
+date: "2026-04-16"
+categories: [test]
+---
+dsfgsdfgsdfg
+
+![A caption](profile.png)
