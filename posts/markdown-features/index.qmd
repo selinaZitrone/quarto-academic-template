@@ -37,7 +37,7 @@ Drop an image into the same folder as the post and reference it with
 `![Alt text](filename.jpg)`. If the image is alone on its own line,
 Quarto treats the alt text as a **figure caption**:
 
-![A placeholder figure that travels with this post.](figure.jpg)
+![A placeholder figure that travels with this post.](figure.png)
 
 ## Code blocks
 
