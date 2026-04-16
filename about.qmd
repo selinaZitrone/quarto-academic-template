@@ -1,41 +1,41 @@
 ---
-title: "CV"
+title: "About"
 ---
 
-A web CV written directly in markdown. Edit the sections below — add,
-remove, or rename them as you like. If you'd rather link to a PDF, drop
-one into the project folder and replace this page with a link to it.
+I'm a PhD student at University of Somewhere, working on *topic*. My
+research focuses on understanding how X relates to Y. Before that, I
+studied Z at University of Somewhere Else.
 
 ## Education
 
-**PhD in Your Field**, Your University — *2022–present*
-Thesis: *A Working Title That Will Change Five Times*. Advisor: Prof. A. Mentor.
+**PhD in Field**, University of Somewhere, *2022–present*
+Thesis: *Thesis title*. Advisor: Prof. Jane Doe.
 
-**MSc in Your Field**, Another University — *2020–2022*
-Thesis: *An Earlier Title You No Longer Love*.
+**MSc in Field**, University of Somewhere Else, *2020–2022*
+Thesis: *Thesis title*.
 
-**BSc in Your Field**, First University — *2017–2020*
+**BSc in Field**, University of Somewhere Else, *2017–2020*
 
 ## Positions
 
-**Visiting Researcher**, Somewhere Lab — *Summer 2024*
-One line on what you did.
+**Visiting Researcher**, Some Lab, *Summer 2024*
+Short description of what you did.
 
-**Research Assistant**, Your University — *2021–2022*
-One line on what you did.
+**Research Assistant**, University of Somewhere, *2021–2022*
+Short description of what you did.
 
 ## Awards & grants
 
-- **Travel grant**, Some Funding Body — 2024
-- **Best poster**, Some Conference — 2023
-- **Graduate scholarship**, Your University — 2022
+- **Travel grant**, Funding Body, 2024
+- **Best poster**, Conference Name, 2023
+- **Graduate scholarship**, University of Somewhere, 2022
 
 ## Teaching
 
-- *Introduction to Your Field* (TA), Your University — 2023, 2024
-- Guest lecture, *A Related Course* — 2024
+- *Course Name*, University of Somewhere, 2023, 2024
+- Guest lecture, *Course Name*, 2024
 
 ## Service
 
-- Reviewer: *Journal A*, *Journal B*
-- Co-organizer, Student seminar series — 2023–present
+- Reviewer: *Journal Name*, *Journal Name*
+- Co-organizer, Student seminar series, 2023–present

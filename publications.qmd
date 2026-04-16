@@ -2,21 +2,19 @@
 title: "Publications"
 ---
 
-<!-- Written by hand and grouped by year.
-     Future upgrade: Quarto supports generating this page from a .bib file
-     using the `bibliography` and `nocite` YAML keys — see
-     https://quarto.org/docs/authoring/citations.html -->
+## Papers
 
-## 2025
+- **Your Name**, A. Coauthor, B. Coauthor. *Paper title*. Journal Name, 2025. [[code](#)] [[doi](#)]
+- A. Coauthor\*, **Your Name**\*. *Paper title*. Conference Name, 2025. [[doi](#)]
+- **Your Name**, C. Coauthor. *Paper title*. Journal Name, 2024. [[doi](#)]
 
-- **Your Name**, A. Coauthor, B. Coauthor. *A paper title that sounds important*. Journal of Interesting Things, 2025. [[PDF](#)] [[code](#)] [[doi](#)]
+## Talks
 
-- A. Coauthor\*, **Your Name**\*. *Another paper title*. Proceedings of Somewhere, 2025. [[PDF](#)] [[doi](#)]
+- *Talk title*. Conference Name, City, 2025.
+- *Talk title*. Workshop Name, City, 2024. [[slides](#)]
+- *Talk title*. Invited seminar, University of Somewhere, 2024.
 
-## 2024
+## Other
 
-- **Your Name**, C. Coauthor. *An earlier paper*. Journal of Other Things, 2024. [[PDF](#)] [[doi](#)]
-
-## Preprints & working papers
-
-- **Your Name**. *A preprint that is definitely almost ready*. 2025. [[PDF](#)]
+- **Your Name**. *Paper title*. Preprint, 2025. [[preprint](#)]
+- **Your Name**. *Blog post/report title*. 2024. [[link](#)]
