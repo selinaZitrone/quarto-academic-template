@@ -1,6 +1,6 @@
 ---
 title: "Welcome to my blog"
-description: "A first post explaining how this blog is put together."
+description: "A first post explaining how to use this blog."
 author: "Your Name"
 date: "2026-04-14"
 categories: [news, meta]
@@ -14,15 +14,14 @@ inside it. The [blog listing page](../../blog.qmd) will pick it up automatically
 
 The fields at the top of this file are what the listing uses:
 
-- `title` — shown on the listing and at the top of the post
-- `description` — the short blurb under the title on the listing
-- `date` — controls the sort order
-- `categories` — shown as tags; also power the sidebar filter
+- `title`: shown on the listing and at the top of the post
+- `description`: the short blurb under the title
+- `date`: controls the sort order
+- `categories`: shown as tags and in the sidebar filter
 
 ## What goes in the body?
 
 Anything you can write in markdown: headings, lists, links, images,
-block quotes, footnotes, math, and code blocks. For a tour of what's
+block quotes, footnotes, math, and code blocks. For some ideas of what's
 possible, see the [markdown features](../markdown-features/index.qmd) post.
 
-Happy writing!

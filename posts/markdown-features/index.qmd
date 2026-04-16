@@ -1,35 +1,13 @@
 ---
-title: "Markdown and Quarto features I use"
+title: "Markdown and Quarto features"
 description: "A quick tour of footnotes, math, code blocks, and callouts."
 author: "Your Name"
 date: "2026-04-15"
 categories: [quarto, reference]
 ---
 
-This post is a small reference for the markdown and Quarto features
-that show up most often in academic writing. Keep it around as a
-cheat sheet, or delete it once you've seen how each piece works.
-
-## Footnotes
-
-You can drop a footnote anywhere in your prose.[^1] Quarto auto-numbers
-them and adds a link back to where you cited them — handy for academic
-writing.
-
-[^1]: Like this one. Footnote definitions can live anywhere in the file;
-they're collected at the bottom of the rendered page.
-
-## Math
-
-Quarto understands **LaTeX-style math**, so you can write an equation
-inline like $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$, or as a display
-block on its own line:
-
-$$
-\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
-$$
-
-No setup required — Quarto renders it via MathJax automatically.
+This post is a small reference for some interesting markdown and Quarto features
+beyond the basics like **bold** or *italic* text. You can find on the [Quarto website](https://quarto.org/docs/authoring/markdown-basics.html).
 
 ## Images
 
@@ -37,12 +15,39 @@ Drop an image into the same folder as the post and reference it with
 `![Alt text](filename.jpg)`. If the image is alone on its own line,
 Quarto treats the alt text as a **figure caption**:
 
-![A placeholder figure that travels with this post.](figure.png)
+![A figure with a caption.](figure.png)
+
+## Callouts
+
+::: {.callout-tip}
+## Callouts are a Quarto feature
+This coloured box is a callout. There are five types: `note`, `tip`,
+`warning`, `important`, and `caution`. They're great for highlighting
+things without breaking the flow of your writing.
+:::
+
+You can learn more about callouts [here](https://quarto.org/docs/authoring/callouts.html).
+
+## Footnotes
+
+You can add a footnote anywhere in your text.[^1] Quarto numbers
+them and adds a link back to where you cited them.
+
+[^1]: Like this one. Footnote can be added anywhere in the text and are collected at the bottom of the rendered page.
+
+## Math
+
+Quarto understands **LaTeX-style math**, so you can write an equation
+inline like $\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i$, or as a display
+block:
+
+$$
+\bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+$$
 
 ## Code blocks
 
-You can show code in a fenced block. Note the lowercase `r` with
-**no curly braces** — that means "display this as code, don't run it":
+You can show code in a fenced block. The lowercase `r` tells Quarto to treat it as R code and apply the corresponding syntax highlighting.
 
 ```r
 library(ggplot2)
@@ -52,18 +57,10 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
   labs(title = "A plot I am not actually running")
 ```
 
-To execute the code, use `{r}` with curly braces. Quarto will run the code and insert the output. But that's a topic for another post.
-
-## Callouts
-
-::: {.callout-tip}
-## Callouts are a Quarto feature
-This coloured box is a **callout**. There are five types: `note`, `tip`,
-`warning`, `important`, and `caution`. They're great for highlighting
-things without breaking the flow of your writing.
-:::
+To execute the code, use `{r}` with curly braces. Quarto will run the code and insert the output. Running code withing Quarto is another topic and you can find more about it [here for R](https://quarto.org/docs/computations/r.html), [here for Python](https://quarto.org/docs/computations/python.html), and
+ [here for Julia](https://quarto.org/docs/computations/julia.html).
 
 ## More
 
 For everything else, the [Quarto guide](https://quarto.org/docs/guide/)
-is the canonical reference.
+is the a nice read.
